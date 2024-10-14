@@ -11,3 +11,7 @@ int calculate_average_of_three() {
     printf("The average of numbers %.2lf, %.2lf, %.2lf is: %.2lf\n", num1, num2, num3, avg);
     return 0;
 }
+
+int main (){
+   calculate_average_of_three();
+}

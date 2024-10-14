@@ -12,3 +12,6 @@ int calculate_price_with_tax() {
     return 0;
 }
 
+int main (){
+   calculate_price_with_tax();
+}

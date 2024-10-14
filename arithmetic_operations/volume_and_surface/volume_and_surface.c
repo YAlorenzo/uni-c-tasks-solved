@@ -2,7 +2,7 @@
 
 int calculate_volume_and_surface() {
     int length, width, height; // length, width, height
-    printf("Enter 3 integers separated by spaces:\n");
+    printf("Enter 3 integers separated by spaces: ");
 
     scanf("%d %d %d", &length, &width, &height);
 
@@ -15,3 +15,6 @@ int calculate_volume_and_surface() {
     return 0;
 }
 
+int main () {
+    calculate_volume_and_surface();
+}

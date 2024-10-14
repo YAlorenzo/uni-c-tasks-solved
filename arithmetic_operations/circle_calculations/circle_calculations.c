@@ -14,3 +14,6 @@ int calculate_circle_properties() {
     return 0;
 }
 
+int main(){
+    calculate_circle_properties();
+}

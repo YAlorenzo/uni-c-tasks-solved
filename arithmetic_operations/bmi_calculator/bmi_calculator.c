@@ -14,3 +14,6 @@ int calculate_bmi() {
     return 0;
 }
 
+int main () {
+   calculate_bmi();
+}
